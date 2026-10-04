@@ -5,7 +5,7 @@
 4. uv add pydantic[email]
 
 ## Run
-    uv run fastapi dev src/fatest/main
+    uv run --env-file .env fastapi dev src/fatest/main.py
 
 ## Code
 
