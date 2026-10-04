@@ -7,7 +7,11 @@ authors = [
     { name = "leo", email = "leo.relitesoft@mail.ru" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "pydantic[email]>=2.13.5",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 fatest = "fatest:main"
